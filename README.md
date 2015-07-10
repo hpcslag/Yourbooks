@@ -1,2 +1,2 @@
 # Yourbooks
-Yourbooks webserver opensource by node.js
+Yourbooks webserver opensource by Java Web (Servlet)
