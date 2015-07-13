@@ -1,0 +1,100 @@
+@import url(http://fonts.googleapis.com/css?family=Arvo);
+body,html{
+	border: 0px;
+	margin: 0;
+	background: url(./bg1.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+h1,h2,h3,h4,h5,h6,span,p{
+	margin: 0;
+	padding: 0;
+}
+
+#container{
+  position: relative;
+  margin: 0 auto;
+}
+
+.ybHead{
+	height: 72px;
+	background: #333;
+}
+
+
+#ybHInner{
+  position: absolute;
+  top: 18px;
+  left: 30px;
+  margin: 0;
+  color:white;
+  font-family: 'Arvo', serif;
+}
+
+#ybHInner span{
+  position: absolute;
+  top: 0px;
+  left: 220px;
+  margin: 0;
+  color:white;
+  font-family: 'Arvo', serif;
+  display: inline-table;
+  background-color: #2DAEAE;
+    padding: 2px;
+  border-radius: 5px;
+}
+
+#article1{
+	padding-top: 56.25%;
+}
+
+#articleFirst{
+  width: 100%;
+  position: absolute;
+  top: 36%;
+  left: 0;
+  text-align: center;
+  color: white;
+  text-shadow: 1px 1px 1px #333;
+}
+#articleFirst h1{
+  font-family: "微軟正黑體";
+  font-size: 6.3em;
+}
+#articleFirst h2{
+  font-family: "微軟正黑體";
+  position: relative;
+  top: 40px;
+  font-size: 2.3em;
+  background-color: #833232;
+  width: 415px;
+  padding: 10px;
+  margin: 0px auto;
+  border-radius: 6px;
+  box-shadow: 1px 1px 1px #333;
+}
+
+#article2{
+	width:100%;
+	background: url(./bg2.jpg) no-repeat fixed;
+    background-position: center top;
+    border-top: #1A5356 5px solid;
+}
+
+@media (max-width: 347px) {
+    #ybHInner span{
+	  position: absolute;
+	  top: 0px;
+	  left: 220px;
+	  margin: 0;
+	  color:white;
+	  font-family: 'Arvo', serif;
+	  display: inline-table;
+	  background-color: #2DAEAE;
+	  padding: 2px;
+	  border-radius: 5px;
+	}
+}
